@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
 
 
-        client.get(this, "https://modcom.pythonanywhere.com/api/all",
+        client.get(this, "https://android-payment-api.onrender.com/api/all/",
             null,
             "application/json",
             object: JsonHttpResponseHandler(){
